@@ -10,12 +10,14 @@ function test() {
     console.log(a);
 }
 test();
+
 /*two function*/
 var numbers = [74989, 74990, 84990, 62000, 58480, 61800];
 numbers.sort(function(a, b) {
     return a - b;
 });
 numbers.reverse();
-var gradePoint = (numbers[0] + numbers[1] + numbers[2]) / 3;
+var sumOfThreePlayers = (numbers[0] + numbers[1] + numbers[2]);
+var gradePoint = sumOfThreePlayers / 3;
 /*console.log(numbers);*/ /*вывод упорядоченного массива*/
 console.log(gradePoint);
